@@ -1,4 +1,7 @@
 # Coindex CLI
+![Last Commit](https://img.shields.io/github/last-commit/vilelajs/coindex-cli)
+![Open Issues](https://img.shields.io/github/issues/vilelajs/coindex-cli)
+![Open Pull Requests](https://img.shields.io/github/issues-pr/vilelajs/coindex-cli)
 
 Interface de linha de comando escrita em Node.js para verificar preços de moedas.
 
