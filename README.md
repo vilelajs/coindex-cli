@@ -1,9 +1,9 @@
 # Coindex CLI
+Interface de linha de comando escrita em Node.js para verificar preços de moedas.
+
 ![Last Commit](https://img.shields.io/github/last-commit/vilelajs/coindex-cli)
 ![Open Issues](https://img.shields.io/github/issues/vilelajs/coindex-cli)
 ![Open Pull Requests](https://img.shields.io/github/issues-pr/vilelajs/coindex-cli)
-
-Interface de linha de comando escrita em Node.js para verificar preços de moedas.
 
 > [!NOTE]
 > Solicitações não autenticadas com chave de API serão armazenadas em cache por 1 minuto. Para mais informações, acesse: [awesomeapi.com.br](https://awesomeapi.com.br/)
