@@ -10,21 +10,6 @@ Interface de linha de comando escrita em Node.js para verificar preços de moeda
 
 ## Estrutura do projeto
 
-```
-coindex-cli/
-├─ bin/
-│ └─ coindex.js
-├─ src/
-│ ├─ commands/
-│ ├─ libs/
-│ ├─ utils/
-│     └─ data/
-├─ LICENSE
-├─ package-lock.json
-├─ package.json
-└─ README.md
-```
-
 - bin — é onde fica o arquivo principal da coindex CLI.
 - src/commands — armazena os arquivos de comandos individuais.
 - src/utils — é onde ficam as funções utilitárias que são usadas nos comandos, como formatação de dados.
@@ -32,7 +17,7 @@ coindex-cli/
 
 ## Como usar?
 
-No diretório raiz do projeto, execute o comando `node .` e, em seguida, instale globalmente com `npm i -g .`
+No diretório raiz do projeto, execute o comando `npm i -g` e, em seguida,  `node .`
 
 ## Comandos
 
