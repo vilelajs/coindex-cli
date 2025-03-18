@@ -17,7 +17,7 @@ Interface de linha de comando escrita em Node.js para verificar preços de moeda
 
 ## Como usar?
 
-No diretório raiz do projeto, execute o comando `npm i -g` e, em seguida,  `node .`
+No diretório raiz do projeto, execute o comando `npm i` e, em seguida,  `npm i -g` Após isso, é só executar "coindex" para ver o menu da CLI.
 
 ## Comandos
 
