@@ -1,5 +1,5 @@
 import { Command } from "commander";
-import { Coindex } from "../libs/coindex.js";
+import Coindex from "../libs/coindex.js";
 
 const Daily = new Command("daily")
   .description("returns the closing of the last few days")
