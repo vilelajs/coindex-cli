@@ -5,18 +5,18 @@ import ObjectArray from "../utils/object-array.js";
 import DataLoader from "../utils/data-loader.js";
 import DataFormatter from "../utils/data-formatter.js";
 
-const CoinNames = () => {
-  const data = DataLoader("../utils/data/coin-names.json");
-  console.table(data);
-};
-
-const CoinCombinations = () => {
-  const data = DataLoader("../utils/data/coin-combinations.json");
-  console.table(data);
-};
-
 // Main class for Coindex
 class Coindex {
+  static CoinNames = () => {
+    const data = DataLoader("../utils/data/coin-names.json");
+    console.table(data);
+  };
+
+  static CoinCombinations = () => {
+    const data = DataLoader("../utils/data/coin-combinations.json");
+    console.table(data);
+  };
+
   static async showLast(currencyCode) {
     const data = await FetchData.last(currencyCode);
 
@@ -65,4 +65,4 @@ class Coindex {
   }
 }
 
-export { CoinNames, CoinCombinations, Coindex };
+export default Coindex;
