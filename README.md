@@ -17,7 +17,7 @@ Interface de linha de comando escrita em Node.js para verificar preços de moeda
 
 ## Como usar?
 
-No diretório raiz do projeto, execute o comando `npm i` e, em seguida,  `npm i -g` Após isso, é só executar "coindex" para ver o menu da CLI.
+No diretório raiz do projeto, execute o comando `npm i` e, em seguida,  `npm i -g`. Após isso, é só executar "coindex" para ver o menu da CLI.
 
 ## Comandos
 
@@ -26,13 +26,7 @@ No diretório raiz do projeto, execute o comando `npm i` e, em seguida,  `npm i 
 # Ver versão
 coindex -V
 
-# Ver lista completa de combinações
-coindex -c
-
-# Ver lista de nomes (código) das moedas
-coindex -l
-
-# Ver documentação de comandos
+# Ver documentação dos comandos
 coindex [comando] -h
 
 ## Comandos
@@ -44,4 +38,10 @@ coindex daily <currency_code> <number_days>
 
 # Ver cotações sequenciais de uma única moeda (intervalo de 1 minuto)
 coindex sqm <currency_code> <amount>
+
+# Ver lista de nomes (código) das moedas
+coindex coins
+
+# Ver lista completa de combinações
+coindex comb
 ```
